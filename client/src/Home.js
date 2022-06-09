@@ -1,3 +1,4 @@
+// basic home page
 const Home = () => {
   return (
     <div className="component">

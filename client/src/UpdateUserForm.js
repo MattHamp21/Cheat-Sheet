@@ -1,6 +1,8 @@
 import axios from "axios";
 import { useState } from "react";
 
+// we use axios in order to make request to
+
 const UpdateUserForm = (props) => {
   const [name, setName] = useState(props.name);
   const [age, setAge] = useState(props.age);

@@ -8,6 +8,7 @@ import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
+  // BrowserRouter will allow react router to work within the app
   <BrowserRouter>
     <App />
   </BrowserRouter>

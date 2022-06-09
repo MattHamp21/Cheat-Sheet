@@ -5,6 +5,7 @@ import PageWrapper from "./PageWrapper";
 import Home from "./Home";
 import Users from "./User";
 
+// Routes and route will display the element you have and you can link paths between files
 function App() {
   return (
     <Routes>
