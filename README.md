@@ -1,24 +1,21 @@
-# README
+# Cheat Sheet
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Ruby
 
-Things you may want to cover:
+1. create a rails app -
+   $ rails new app-name -d postgreql -- api
+   $ cd code .
+2. Create rails model
+   $ rails g model user name:string age:integer
+   $ rails db:migrate
+3. create new users in seeds User.create(name:'dave', age:5)
+4. Make routes - go to the routes file and look at how to do that
+5. Make a model controller - rails g controller api/users
+6. Run rails server - rails s -p 3001
+7. test and debug on post man
 
-* Ruby version
+## React
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Create ract app $ Create react-app client
+2. add react router and axios - yarn add react-router-dom axios
+3. make your basic layout -- page wrapper, links, homepage, user, userform, updateuser
